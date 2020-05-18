@@ -2,6 +2,7 @@ body{
     background: url(https://c8.alamy.com/comp/DT4P55/job-application-form-isolated-on-white-background-DT4P55.jpg) no-repeat center center fixed;
     background-size: cover;
     
+    
 
 }
 
@@ -9,11 +10,11 @@ body{
 .form{
     text-align: center;
     color: green;
-    
 }
 
 hr{  
     width: 50%;
+    
 }
 
 form{
@@ -22,4 +23,14 @@ form{
 
 input{
     margin-bottom: 10px;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+.reset:hover{
+    background-color: green;
 }

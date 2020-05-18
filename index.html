@@ -10,8 +10,8 @@
 <body>
     <h1 class="form">Job Form</h1> <hr>
     <form>
-        First Name: <input type="text" name="firstName"> <br>
-        Last Name: <input type="text" name="lastName"> <br>
+        First Name: <input type="text" name="firstName" required> <br>
+        Last Name: <input type="text" name="lastName" required> <br>
         Gender: 
         <select name="gender">
             <option value="male">Male</option>
@@ -20,7 +20,11 @@
         Citizen or Dual-Citizen: <br>
         Citizen <input type="checkbox" name="nationality">
         Dual Citizen <input type="checkbox" name="nationality"> <br>
-        Available Start Date: <input type="date">
+        Available Start Date: <input type="date"> <br>
+        Email: <input type="email" required>
+        Password: <input type="password" required minlength="7"> <br>
+        <input type="submit" class="submit">
+        <input type="reset" class="reset">
 
 
 
