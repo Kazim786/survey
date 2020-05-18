@@ -1,0 +1,25 @@
+body{
+    background: url(https://c8.alamy.com/comp/DT4P55/job-application-form-isolated-on-white-background-DT4P55.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+
+}
+
+
+.form{
+    text-align: center;
+    color: green;
+    
+}
+
+hr{  
+    width: 50%;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    margin-bottom: 10px;
+}

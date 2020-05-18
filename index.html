@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Application form</title>
 </head>
 <body>
-    <h1>Job Form</h1>
+    <h1 class="form">Job Form</h1> <hr>
     <form>
         First Name: <input type="text" name="firstName"> <br>
         Last Name: <input type="text" name="lastName"> <br>
-        
+        Gender: 
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">female</option>
+        </select> <br>
+        Citizen or Dual-Citizen: <br>
+        Citizen <input type="checkbox" name="nationality">
+        Dual Citizen <input type="checkbox" name="nationality"> <br>
+        Available Start Date: <input type="date">
+
+
 
     </form>
 </body>
