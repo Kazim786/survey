@@ -1,8 +1,6 @@
 body{
-    background: url(https://c8.alamy.com/comp/DT4P55/job-application-form-isolated-on-white-background-DT4P55.jpg) no-repeat center center fixed;
-    background-size: cover;
-    
-    
+    background: url(https://brandyourself.com/blog/wp-content/uploads/job-application.jpg) no-repeat center center fixed;
+    background-size: cover;  
 
 }
 
@@ -19,6 +17,7 @@ hr{
 
 form{
     text-align: center;
+    color: white;
 }
 
 input{
