@@ -17,7 +17,7 @@ hr{
 
 form{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 input{
@@ -26,7 +26,7 @@ input{
 
 .submit:hover{
     background-color: black;
-    color: white;
+    color: rgb(208, 151, 151);
     font-family: cursive;
 }
 
